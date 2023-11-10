@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
-  const [text, setText] = useState('');
+  const [text, setText] = useState('')
 
   const handleChange = (event) => {
     const inputValue = event.target.value;
